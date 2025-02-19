@@ -20,7 +20,6 @@ nav ul{
     flex-direction: row;
     padding: 0;
     margin: 0;
-    /* gap: 5rem; */
 }
 
 nav ul li{
@@ -92,14 +91,14 @@ a {
 }
 
 /* about */
-/* main ul{
-    list-style: none;
-} */
-
 main ul li{
     line-height: 50px;
     display: inline-block;
     width: auto;
+}
+
+p{
+    line-height: 30px;
 }
 
 /* favorite cars */
