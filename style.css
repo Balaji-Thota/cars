@@ -92,9 +92,13 @@ h3{
 }
 
 img {
-    text-align: left;
-    margin: 25px auto;
+    height: auto; 
     
+    border: 1px solid #333; 
+    padding: 10px; 
+    border-radius: 15px;
+    margin: 20px auto; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
 }
 
 a {
@@ -142,10 +146,7 @@ footer{
 }
 
 
-/* .design :nth-child(even){
-    border: 2px dashed black;
+.design :nth-child(even){
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
-
-.design :hover{
-    border: none;
-} */
