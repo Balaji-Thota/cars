@@ -72,9 +72,9 @@ main{
     background-color: #ffffff;
     margin: 20px auto;
     padding: 20px;
+    gap: 50px;
     max-width: 1200px;
     font-size: 16px;
-    /* background-image: linear-gradient(purple, skyblue , purple); */
     background-image: linear-gradient(rgb(158, 148, 224),rgb(111, 101, 224),rgba(75, 49, 224, 0.875), rgba(75, 49, 224, 0.875), rgb(111, 101, 224) , rgb(158, 148, 224));
 }
 
@@ -106,24 +106,17 @@ a {
     line-height: 1.8;
 }
 
-
-/* 
-#skip {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-} */
-
 /* about */
 
 main ul li{
-    line-height: 50px;
-    display: inline-block;
+    line-height: 25px;
+    /* display: inline-block; */
     width: auto;
 }
 
-p{
-    line-height: 30px;
+main p{
+    line-height: 33px;
+    text-align: left;
 }
 /* favorite cars */
 main ol{
